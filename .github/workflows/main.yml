@@ -47,7 +47,3 @@ jobs:
     - name: Run tests
       run: |
         python -m unittest discover tests
-
-      - name: Run tests
-        run: |
-          python3 -m unittest discover tests
